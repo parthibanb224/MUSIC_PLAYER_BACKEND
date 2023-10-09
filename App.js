@@ -10,5 +10,6 @@ APP_SERVER.use('/login', require('./controllers/Login.controller'));
 APP_SERVER.use('/forgot', require('./controllers/Forgot.controller'));
 APP_SERVER.use('/reset', require('./controllers/reset.controller'));
 APP_SERVER.use('/updateUser', require('./controllers/UpdateUser.controller'));
+APP_SERVER.use('/favorite', require('./controllers/Favorite.controller'));
 
 module.exports = APP_SERVER;
